@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Aventure {
+public class Adventure {
     String seuPokemon = "";
     String response = "";
     void initAdventure (String yourPokemon) {

@@ -37,7 +37,7 @@ public class Main {
             fogo.renderPokemon();
         };
 
-        Aventure aventura = new Aventure();
+        Adventure aventura = new Adventure();
         aventura.initAdventure(yourPokemon);
 
     }
