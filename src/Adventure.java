@@ -9,6 +9,9 @@ public class Adventure {
         response = scanner.nextLine();
         currentPokemon = yourPokemon;
 
+        Pokemon pidgey = new Pidgey("Pidgey", "passaro", "Ataque de Asa");
+        pidgey.renderPokemon();
+
         if(response == currentPokemon) {
             System.out.println("Inicia batalha POKEMON!!!");
         } else {
